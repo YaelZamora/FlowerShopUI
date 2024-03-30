@@ -33,7 +33,7 @@ struct LoginView: View {
             }.padding(.horizontal)
             
             NavigationLink {
-                //
+                HomeView()
             } label: {
                 Text("Sign in").frame(width: 300, height: 50).foregroundColor(.white).background(.purple).cornerRadius(25)
             }.padding(.vertical, 40)

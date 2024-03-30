@@ -34,7 +34,7 @@ struct VerifyCodeView: View {
             }
             
             NavigationLink {
-                //
+                HomeView()
             } label: {
                 Text("Verify").frame(width: 300, height: 50).foregroundColor(.white).background(.purple).cornerRadius(25)
             }
