@@ -45,7 +45,7 @@ struct RegisterView: View {
             }.padding(.horizontal)
             
             NavigationLink {
-                //
+                VerifyCodeView()
             } label: {
                 Text("Sign Up").frame(width: 300, height: 50)
                     .foregroundColor(.white)

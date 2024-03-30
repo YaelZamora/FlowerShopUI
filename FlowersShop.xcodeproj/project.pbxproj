@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E22BF152BB87FE600EBCF3D /* VerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */; };
+		7E22BF172BB8829600EBCF3D /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF162BB8829600EBCF3D /* Code.swift */; };
+		7E22BF192BB8835C00EBCF3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF182BB8835C00EBCF3D /* Extensions.swift */; };
 		7E42AA322BB7D5D5007A4912 /* FlowersShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA312BB7D5D5007A4912 /* FlowersShopApp.swift */; };
 		7E42AA342BB7D5D5007A4912 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA332BB7D5D5007A4912 /* ContentView.swift */; };
 		7E42AA362BB7D5D6007A4912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E42AA352BB7D5D6007A4912 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeView.swift; sourceTree = "<group>"; };
+		7E22BF162BB8829600EBCF3D /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
+		7E22BF182BB8835C00EBCF3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7E42AA2E2BB7D5D5007A4912 /* FlowersShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowersShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E42AA312BB7D5D5007A4912 /* FlowersShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersShopApp.swift; sourceTree = "<group>"; };
 		7E42AA332BB7D5D5007A4912 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +79,7 @@
 				7E42AA3F2BB7D5F4007A4912 /* Views */,
 				7E42AA312BB7D5D5007A4912 /* FlowersShopApp.swift */,
 				7E42AA332BB7D5D5007A4912 /* ContentView.swift */,
+				7E22BF182BB8835C00EBCF3D /* Extensions.swift */,
 				7E42AA352BB7D5D6007A4912 /* Assets.xcassets */,
 				7E42AA372BB7D5D6007A4912 /* Preview Content */,
 			);
@@ -95,6 +102,7 @@
 				7E42AA462BB7D9C3007A4912 /* WelcomeView.swift */,
 				7E42AA482BB7DE4B007A4912 /* LoginView.swift */,
 				7E42AA4E2BB7E61E007A4912 /* RegisterView.swift */,
+				7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +115,7 @@
 				7E42AA4C2BB7E071007A4912 /* PassWordTextField.swift */,
 				7E42AA502BB7E65C007A4912 /* NameTextField.swift */,
 				7E42AA522BB7E7C2007A4912 /* Checkbox.swift */,
+				7E22BF162BB8829600EBCF3D /* Code.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -194,11 +203,14 @@
 				7E42AA4B2BB7DF3B007A4912 /* EmailTextField.swift in Sources */,
 				7E42AA532BB7E7C2007A4912 /* Checkbox.swift in Sources */,
 				7E42AA432BB7D61E007A4912 /* SplashScreen.swift in Sources */,
+				7E22BF152BB87FE600EBCF3D /* VerifyCodeView.swift in Sources */,
 				7E42AA342BB7D5D5007A4912 /* ContentView.swift in Sources */,
 				7E42AA322BB7D5D5007A4912 /* FlowersShopApp.swift in Sources */,
+				7E22BF172BB8829600EBCF3D /* Code.swift in Sources */,
 				7E42AA4D2BB7E071007A4912 /* PassWordTextField.swift in Sources */,
 				7E42AA512BB7E65C007A4912 /* NameTextField.swift in Sources */,
 				7E42AA452BB7D830007A4912 /* CardPresentation.swift in Sources */,
+				7E22BF192BB8835C00EBCF3D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
