@@ -11,6 +11,15 @@
 		7E42AA342BB7D5D5007A4912 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA332BB7D5D5007A4912 /* ContentView.swift */; };
 		7E42AA362BB7D5D6007A4912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E42AA352BB7D5D6007A4912 /* Assets.xcassets */; };
 		7E42AA392BB7D5D6007A4912 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E42AA382BB7D5D6007A4912 /* Preview Assets.xcassets */; };
+		7E42AA432BB7D61E007A4912 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA422BB7D61E007A4912 /* SplashScreen.swift */; };
+		7E42AA452BB7D830007A4912 /* CardPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA442BB7D830007A4912 /* CardPresentation.swift */; };
+		7E42AA472BB7D9C3007A4912 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA462BB7D9C3007A4912 /* WelcomeView.swift */; };
+		7E42AA492BB7DE4B007A4912 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA482BB7DE4B007A4912 /* LoginView.swift */; };
+		7E42AA4B2BB7DF3B007A4912 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA4A2BB7DF3B007A4912 /* EmailTextField.swift */; };
+		7E42AA4D2BB7E071007A4912 /* PassWordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA4C2BB7E071007A4912 /* PassWordTextField.swift */; };
+		7E42AA4F2BB7E61E007A4912 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA4E2BB7E61E007A4912 /* RegisterView.swift */; };
+		7E42AA512BB7E65C007A4912 /* NameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA502BB7E65C007A4912 /* NameTextField.swift */; };
+		7E42AA532BB7E7C2007A4912 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42AA522BB7E7C2007A4912 /* Checkbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		7E42AA332BB7D5D5007A4912 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E42AA352BB7D5D6007A4912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E42AA382BB7D5D6007A4912 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E42AA422BB7D61E007A4912 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		7E42AA442BB7D830007A4912 /* CardPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPresentation.swift; sourceTree = "<group>"; };
+		7E42AA462BB7D9C3007A4912 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7E42AA482BB7DE4B007A4912 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7E42AA4A2BB7DF3B007A4912 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		7E42AA4C2BB7E071007A4912 /* PassWordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWordTextField.swift; sourceTree = "<group>"; };
+		7E42AA4E2BB7E61E007A4912 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		7E42AA502BB7E65C007A4912 /* NameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextField.swift; sourceTree = "<group>"; };
+		7E42AA522BB7E7C2007A4912 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 		7E42AA302BB7D5D5007A4912 /* FlowersShop */ = {
 			isa = PBXGroup;
 			children = (
+				7E42AA402BB7D5FA007A4912 /* Widgets */,
+				7E42AA3F2BB7D5F4007A4912 /* Views */,
 				7E42AA312BB7D5D5007A4912 /* FlowersShopApp.swift */,
 				7E42AA332BB7D5D5007A4912 /* ContentView.swift */,
 				7E42AA352BB7D5D6007A4912 /* Assets.xcassets */,
@@ -65,6 +85,37 @@
 				7E42AA382BB7D5D6007A4912 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E42AA3F2BB7D5F4007A4912 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E42AA412BB7D607007A4912 /* Tabs */,
+				7E42AA422BB7D61E007A4912 /* SplashScreen.swift */,
+				7E42AA462BB7D9C3007A4912 /* WelcomeView.swift */,
+				7E42AA482BB7DE4B007A4912 /* LoginView.swift */,
+				7E42AA4E2BB7E61E007A4912 /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E42AA402BB7D5FA007A4912 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				7E42AA442BB7D830007A4912 /* CardPresentation.swift */,
+				7E42AA4A2BB7DF3B007A4912 /* EmailTextField.swift */,
+				7E42AA4C2BB7E071007A4912 /* PassWordTextField.swift */,
+				7E42AA502BB7E65C007A4912 /* NameTextField.swift */,
+				7E42AA522BB7E7C2007A4912 /* Checkbox.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		7E42AA412BB7D607007A4912 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E42AA4F2BB7E61E007A4912 /* RegisterView.swift in Sources */,
+				7E42AA492BB7DE4B007A4912 /* LoginView.swift in Sources */,
+				7E42AA472BB7D9C3007A4912 /* WelcomeView.swift in Sources */,
+				7E42AA4B2BB7DF3B007A4912 /* EmailTextField.swift in Sources */,
+				7E42AA532BB7E7C2007A4912 /* Checkbox.swift in Sources */,
+				7E42AA432BB7D61E007A4912 /* SplashScreen.swift in Sources */,
 				7E42AA342BB7D5D5007A4912 /* ContentView.swift in Sources */,
 				7E42AA322BB7D5D5007A4912 /* FlowersShopApp.swift in Sources */,
+				7E42AA4D2BB7E071007A4912 /* PassWordTextField.swift in Sources */,
+				7E42AA512BB7E65C007A4912 /* NameTextField.swift in Sources */,
+				7E42AA452BB7D830007A4912 /* CardPresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
