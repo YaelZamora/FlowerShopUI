@@ -10,6 +10,7 @@
 		7E11804A2BB9BCB900EB8DFA /* OfferCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1180492BB9BCB900EB8DFA /* OfferCard.swift */; };
 		7E11804C2BB9C5EA00EB8DFA /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11804B2BB9C5EA00EB8DFA /* ProductCard.swift */; };
 		7E11804E2BB9D13300EB8DFA /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11804D2BB9D13300EB8DFA /* ProductView.swift */; };
+		7E1180502BB9DED200EB8DFA /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11804F2BB9DED200EB8DFA /* LocationCard.swift */; };
 		7E22BF152BB87FE600EBCF3D /* VerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */; };
 		7E22BF172BB8829600EBCF3D /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF162BB8829600EBCF3D /* Code.swift */; };
 		7E22BF192BB8835C00EBCF3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF182BB8835C00EBCF3D /* Extensions.swift */; };
@@ -38,6 +39,7 @@
 		7E1180492BB9BCB900EB8DFA /* OfferCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCard.swift; sourceTree = "<group>"; };
 		7E11804B2BB9C5EA00EB8DFA /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		7E11804D2BB9D13300EB8DFA /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		7E11804F2BB9DED200EB8DFA /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
 		7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeView.swift; sourceTree = "<group>"; };
 		7E22BF162BB8829600EBCF3D /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		7E22BF182BB8835C00EBCF3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				7E22BF162BB8829600EBCF3D /* Code.swift */,
 				7E1180492BB9BCB900EB8DFA /* OfferCard.swift */,
 				7E11804B2BB9C5EA00EB8DFA /* ProductCard.swift */,
+				7E11804F2BB9DED200EB8DFA /* LocationCard.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				7E22BF212BB88BB400EBCF3D /* WishlistTab.swift in Sources */,
 				7E42AA342BB7D5D5007A4912 /* ContentView.swift in Sources */,
 				7E42AA322BB7D5D5007A4912 /* FlowersShopApp.swift in Sources */,
+				7E1180502BB9DED200EB8DFA /* LocationCard.swift in Sources */,
 				7E22BF172BB8829600EBCF3D /* Code.swift in Sources */,
 				7E22BF252BB88BE500EBCF3D /* ProfileTab.swift in Sources */,
 				7E42AA4D2BB7E071007A4912 /* PassWordTextField.swift in Sources */,
