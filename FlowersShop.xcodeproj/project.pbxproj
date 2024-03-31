@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E11804A2BB9BCB900EB8DFA /* OfferCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1180492BB9BCB900EB8DFA /* OfferCard.swift */; };
+		7E11804C2BB9C5EA00EB8DFA /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11804B2BB9C5EA00EB8DFA /* ProductCard.swift */; };
+		7E11804E2BB9D13300EB8DFA /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11804D2BB9D13300EB8DFA /* ProductView.swift */; };
 		7E22BF152BB87FE600EBCF3D /* VerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */; };
 		7E22BF172BB8829600EBCF3D /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF162BB8829600EBCF3D /* Code.swift */; };
 		7E22BF192BB8835C00EBCF3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22BF182BB8835C00EBCF3D /* Extensions.swift */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E1180492BB9BCB900EB8DFA /* OfferCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCard.swift; sourceTree = "<group>"; };
+		7E11804B2BB9C5EA00EB8DFA /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		7E11804D2BB9D13300EB8DFA /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeView.swift; sourceTree = "<group>"; };
 		7E22BF162BB8829600EBCF3D /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		7E22BF182BB8835C00EBCF3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 				7E42AA4E2BB7E61E007A4912 /* RegisterView.swift */,
 				7E22BF142BB87FE600EBCF3D /* VerifyCodeView.swift */,
 				7E22BF1A2BB88B5200EBCF3D /* HomeView.swift */,
+				7E11804D2BB9D13300EB8DFA /* ProductView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +136,8 @@
 				7E42AA502BB7E65C007A4912 /* NameTextField.swift */,
 				7E42AA522BB7E7C2007A4912 /* Checkbox.swift */,
 				7E22BF162BB8829600EBCF3D /* Code.swift */,
+				7E1180492BB9BCB900EB8DFA /* OfferCard.swift */,
+				7E11804B2BB9C5EA00EB8DFA /* ProductCard.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -222,9 +231,11 @@
 				7E22BF1F2BB88BA200EBCF3D /* LocationTab.swift in Sources */,
 				7E42AA4B2BB7DF3B007A4912 /* EmailTextField.swift in Sources */,
 				7E42AA532BB7E7C2007A4912 /* Checkbox.swift in Sources */,
+				7E11804A2BB9BCB900EB8DFA /* OfferCard.swift in Sources */,
 				7E42AA432BB7D61E007A4912 /* SplashScreen.swift in Sources */,
 				7E22BF232BB88BCB00EBCF3D /* ChatTab.swift in Sources */,
 				7E22BF152BB87FE600EBCF3D /* VerifyCodeView.swift in Sources */,
+				7E11804E2BB9D13300EB8DFA /* ProductView.swift in Sources */,
 				7E22BF1D2BB88B9000EBCF3D /* HomeTab.swift in Sources */,
 				7E22BF212BB88BB400EBCF3D /* WishlistTab.swift in Sources */,
 				7E42AA342BB7D5D5007A4912 /* ContentView.swift in Sources */,
@@ -235,6 +246,7 @@
 				7E42AA512BB7E65C007A4912 /* NameTextField.swift in Sources */,
 				7E42AA452BB7D830007A4912 /* CardPresentation.swift in Sources */,
 				7E22BF192BB8835C00EBCF3D /* Extensions.swift in Sources */,
+				7E11804C2BB9C5EA00EB8DFA /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
